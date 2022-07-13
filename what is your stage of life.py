@@ -5,7 +5,7 @@ while True:
     if idade_pessoa != 0:
         fase = 0
         if idade_pessoa < 9:
-            fase= ' Criança'
+            fase= ' Infantil'
         elif 9 <= idade_pessoa < 12:
             fase = ' Pré-adoslecência'
         elif 12 <= idade_pessoa < 18:
@@ -17,4 +17,4 @@ while True:
         elif idade_pessoa >= 50:
             fase= 'Idoso'
 
-        print(f'O cidadão {nome_pessoa} tem {idade_pessoa:.1f} anos e se encontra na fase da vida:{fase}')
+        print(f'O cidadão {nome_pessoa} tem {idade_pessoa:.1f} anos e se está na fase:{fase}')
